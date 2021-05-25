@@ -15,4 +15,4 @@ jobs:
       - name: Build with Maven
         run: mvn --batch-mode deploy
         env:
-          GITHUB_TOKEN: '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'
+          GITHUB_TOKEN: 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
