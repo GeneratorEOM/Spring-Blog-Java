@@ -9,6 +9,7 @@
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<pluginManagement>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -25,6 +26,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		</pluginManagement>
 	</build>
 
 	<!-- 라이브러리 버전 관리 -->
