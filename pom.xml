@@ -38,6 +38,8 @@
 		<javax.servlet.jsp.jstl-version>1.2</javax.servlet.jsp.jstl-version>
 		<org.springframework-version>5.2.2.RELEASE</org.springframework-version>
 		<!-- <org.springframework-version>4.3.25.RELEASE</org.springframework-version> -->
+		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
 	</properties>
 
 
