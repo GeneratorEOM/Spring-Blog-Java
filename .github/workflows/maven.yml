@@ -14,5 +14,5 @@ jobs:
           java-version: '1.8'
       - name: Build with Maven
         run: mvn --batch-mode deploy
-          env:
-            GITHUB_TOKEN: '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'
+        env:
+          GITHUB_TOKEN: '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'
