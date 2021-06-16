@@ -38,9 +38,9 @@ import kr.com.blog.mapper.UserMapper;
 // Controller 어노테이션이 셋팅되어 있는 클래스를 Controller 로 등록한다.
 @EnableWebMvc
 // 스캔할 패키지를 지정한다.
-@ComponentScan("kr.co.blog.controller")
-@ComponentScan("kr.co.blog.dao")
-@ComponentScan("kr.co.blog.service")
+@ComponentScan("kr.co.softcampus.controller")
+@ComponentScan("kr.co.softcampus.dao")
+@ComponentScan("kr.co.softcampus.service")
 
 //프로퍼티파일 불러오기
 @PropertySource("/WEB-INF/properties/db.properties")
